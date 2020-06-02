@@ -3,7 +3,7 @@
 Henri Home React Native Test
 
 
-![Henry App Screenshot](https://i.ibb.co/dPgfZyM/screenshot.png)
+![Henry App Screenshot](https://i.ibb.co/dPgfZyM/screenshot.png =400x)
 
 ## App Boot up
 
