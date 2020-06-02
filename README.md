@@ -2,16 +2,15 @@
 
 Henri Home React Native Test
 
-
 <img src="https://i.ibb.co/dPgfZyM/screenshot.png" alt="Henry App Screenshot" width="400"/>
 
 ## App Boot up
 
-yarn install
-cd ios && pod install cd ..
-react-native link react-native-safe-area-context
-yarn start
-react-native run-ios --simulator="iPhone 11"
+- yarn install
+- cd ios && pod install cd ..
+- react-native link react-native-safe-area-context
+- yarn start
+- react-native run-ios --simulator="iPhone 11"
 
 
 ## Tools Used
