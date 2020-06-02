@@ -1,0 +1,48 @@
+ {/*  
+
+  Henri Mobile Interview Project 
+  V.1.0
+  3 Screen with botton navigation using React Native
+
+  Init Library ...
+
+  Use Yarn and update Packages
+
+  https://github.com/react-native-community/cli/issues/418
+  https://github.com/react-navigation/react-navigation/issues/7981
+  https://github.com/aksonov/react-native-router-flux/issues/3216#issuecomment-418680074
+  https://github.com/wix/react-native-navigation/issues/6021
+  https://github.com/th3rdwave/react-native-safe-area-context
+
+*/}
+
+import { createAppContainer } from 'react-navigation'
+import { createStackNavigator } from 'react-navigation-stack'
+
+ {/* Import Custom Screens */}
+
+import HomeScreen from './src/screens/HomeScreen'
+import TodoListScreen from './src/screens/ToDoListScreen'
+import FeedListScreen from './src/screens/FeedListScreen'
+import UserListScreen from './src/screens/UserListScreen'
+
+ {/* Create App Navigation */}
+
+const navigator = createStackNavigator(
+  {
+    Home:  HomeScreen,
+    Users: UserListScreen,
+    Feed:  FeedListScreen,
+    ToDo:  TodoListScreen
+
+  },
+  {
+    initialRouteName: "Home",
+    defaultNavigationOptions: {
+      title: "Henry Mobile Demo"
+    }
+  }
+
+);
+
+export default createAppContainer(navigator);
