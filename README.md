@@ -3,7 +3,7 @@
 Henri Home React Native Test
 
 
-![Henry App Screenshot](https://i.ibb.co/dPgfZyM/screenshot.png =400x)
+<img src="https://i.ibb.co/dPgfZyM/screenshot.png" alt="Henry App Screenshot" width="400"/>
 
 ## App Boot up
 
